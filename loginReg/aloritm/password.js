@@ -1,5 +1,6 @@
 { 
-    let enc, pass;//объявляю enc и pass где pass-пароль пришедший с сайта а enc-зашифрованный пароль который будкет хранится на сервере
+    let enc, pass, encPassFromServer;//объявляю enc и pass где pass-пароль пришедший с сайта а enc-зашифрованный пароль который будкет сравниватся с паролем на сервере
     console.log(Number(pass%2+3))=enc;//беру пасс и с помощью алгорита превращаю в энк
-    alert(enc);//вывожу энк куда либо, тут вывожу на экран
+    enc==encPassFromServer
+    encPassFromServer=5
 }
