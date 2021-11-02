@@ -1,4 +1,4 @@
-	.menu_button{
+	.menu__button{
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 		justify-content: center;
@@ -12,7 +12,7 @@
 		margin: 5px 0px;
 	}
 	
-	.menu_button:hover{
+	.menu__button:hover{
 		transition: 5s; /* анимация */
 		background-color: #c9c9c4;
 		transform: translate(0px);
