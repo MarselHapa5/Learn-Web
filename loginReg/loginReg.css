@@ -1,7 +1,11 @@
-#otherInfo{
+.otherInfo{
 width: 300px ;
 height:  90px ;
-
-
-
 }
+.pageText{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+
