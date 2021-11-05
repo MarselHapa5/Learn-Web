@@ -21,7 +21,7 @@
 	#zaglav{
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
-		justify-content: left;
+		justify-content: center;
 		align-items: center;
 		background-color: #FFFFFF;
 		width: 400px;
