@@ -1,12 +1,15 @@
-.otherInfo{
-width: 300px ;
-height:  90px ;
+.info__other{
+    width: 300px ;
+    height:  90px ;
+    color: rgb(167, 151, 65);
 }
-.pageText{
+.text__radio{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
-
-
-
-
+.info__main{
+    width: 300px;
+}
+.info__button{
+    width: 300px;
+}
