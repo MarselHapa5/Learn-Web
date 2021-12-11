@@ -1,8 +1,8 @@
 
 let a= prompt("Первое число: ",1)
-,operator = prompt("Оператор: ")
-,b = prompt("Второе число: ",2)
-,answer = 0
+let operator = prompt("Оператор: ")
+let b = prompt("Второе число: ",2)
+let answer = 0
 
 
 if (operator == "+"){
