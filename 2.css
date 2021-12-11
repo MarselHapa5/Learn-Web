@@ -1,3 +1,9 @@
+	body{
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		
+	}
 	.menu__button{
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
@@ -9,23 +15,19 @@
 		border-radius: 10px;
 		padding: auto;
 		height: 50px;
-		margin: 15px 0px;
+		margin: 0px 0px;
+		transition: 2s; /* анимация */
 	}
 	
 	.menu__button:hover{
-		transition: 2s; /* анимация */
 		background-color: #c9c9c4;
 		transform: translate(0px);
 		cursor: pointer;
 		width: 410px;
 		height: 55px;
 	}
-	iframe{
-	display: flex;
-		flex-direction: column;
-		align-items: end;
-		width:640px; 
-		height:1685px; 
+	.text__login{
+		align-items:center;
 	}
 	#zaglav{
 	font-family: 'Open Sans', sans-serif;
@@ -51,15 +53,14 @@
 		height: 200px;
 		margin: 30px 50px;
 		}
-		#reg{
-			font-family: 'Open Sans', sans-serif;
-			display: flex;
-				justify-content: center;
-				align-items: center;
-				background-color: #3ae75d;
-				width: 400px;
-				border-radius: 10px;
-				padding: 0px;
-				height: 100px;
-				margin: 5px 5px;
-			}
+	#reg{
+		font-family: 'Open Sans', sans-serif;
+		display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: #3ae75d;
+			width: 400px;
+			border-radius: 10px;
+			padding: 0px;
+			height: 100px;
+			margin: 5px 5px;}
