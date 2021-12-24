@@ -1,24 +1,30 @@
-	body{
-		display:flex;
-		flex-direction:column;
-		align-items:center;
-		
-	}
-	.menu__button{
+body{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	
+}
+.menu__button{
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 		justify-content: center;
 		align-items: center;
-		color:#000000;
-		background-color: #9e9e9dde;
-		width: 400px;
-		border-radius: 10px;
-		padding: auto;
-		height: 50px;
-		margin: 0px 0px;
-		transition: 2s; /* время анимации */
-	}
-	
+	color:#000000;
+	background-color: #9e9e9dde;
+	width: 400px;
+	border-radius: 10px;
+	padding: auto;
+	height: 50px;
+	margin: 0px 0px;
+	transition: 2s; /* время анимации */
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
 	.menu__button:hover{
 		background-color: #c9c9c4;
 		cursor: pointer;
