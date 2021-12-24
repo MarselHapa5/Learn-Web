@@ -16,18 +16,21 @@
 		padding: auto;
 		height: 50px;
 		margin: 0px 0px;
-		transition: 2s; /* анимация */
+		transition: 2s; /* время анимации */
 	}
 	
 	.menu__button:hover{
 		background-color: #c9c9c4;
-		transform: translate(0px);
 		cursor: pointer;
 		width: 410px;
 		height: 55px;
 	}
 	.text__login{
 		align-items:center;
+	}
+	.button__img{
+		width:20px;
+		height:20px;
 	}
 	#zaglav{
 	font-family: 'Open Sans', sans-serif;
