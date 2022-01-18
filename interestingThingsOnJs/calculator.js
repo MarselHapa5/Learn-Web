@@ -7,17 +7,17 @@ let answer = 0
 
 if (operator == "+"){
     answer = Number(a) + Number(b)
-    alert(`${answer}`)
+    console.log(`${answer}`)
 }
 if (operator == "-"){
     answer = Number(a) - Number(b) 
-    alert(`${answer}`)
+    console.log(`${answer}`)
 }
 if (operator == "*"){
     answer = Number(a) * Number(b) 
-    alert(`${answer}`)
+    console.log(`${answer}`)
 }
 if (operator == "/"){
     answer = Number(a) / Number(b) 
-    alert(`${answer}`)
+    console.log(`${answer}`)
 }

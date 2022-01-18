@@ -2,7 +2,17 @@ body{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
-	
+	background-image: url(/img/background.png);
+}
+h1{
+	font-family: "Calibri";
+}
+h2{
+	font-family: "Calibri";
+}
+footer{
+	background-color: rgba(131, 115, 115, 1);
+	background-image: url(/img/backgroundFooter.png);
 }
 .menu__button{
 	font-family: 'Open Sans', sans-serif;
@@ -15,30 +25,32 @@ body{
 	border-radius: 10px;
 	padding: auto;
 	height: 50px;
-	margin: 0px 0px;
-	transition: 2s; /* время анимации */
+	margin: 10px 0px;
+	transition: 2s;
+}
+.menu__button:hover{
+	background-color: #c9c9c4;
+	cursor: pointer;
+	width: 410px;
+	
 }
 a{
 	text-decoration: none;
 }
-a:hover{
-	text-decoration: none;
+	a:hover{
+		text-decoration: none;
+	}
+.text__login{
+	align-items:center;
 }
-
-	.menu__button:hover{
-		background-color: #c9c9c4;
-		cursor: pointer;
-		width: 410px;
-		height: 55px;
-	}
-	.text__login{
-		align-items:center;
-	}
-	.button__img{
-		width:20px;
-		height:20px;
-	}
-	#zaglav{
+.button__img{
+	width:20px;
+	height:20px;
+}
+.easter__egg{
+	color:rgba(255,255,255,0);
+}
+#zaglav{
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 		justify-content: center;
@@ -49,8 +61,8 @@ a:hover{
 		padding: auto;
 		height: 30px;
 		margin: 10px 0px;
-		}
-	#menu{
+}
+#menu{
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 		justify-content: left;
@@ -61,15 +73,15 @@ a:hover{
 		padding: 0px;
 		height: 200px;
 		margin: 30px 50px;
-		}
-	#reg{
-		font-family: 'Open Sans', sans-serif;
-		display: flex;
-			justify-content: center;
-			align-items: center;
-			background-color: #3ae75d;
-			width: 400px;
-			border-radius: 10px;
-			padding: 0px;
-			height: 100px;
-			margin: 5px 5px;}
+}
+#reg{
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #3ae75d;
+		width: 400px;
+		border-radius: 10px;
+		padding: 0px;
+		height: 100px;
+		margin: 5px 5px;}

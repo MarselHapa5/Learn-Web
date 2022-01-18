@@ -1,54 +1,61 @@
 <html>
   <head>    
         <title> Регистрация </title>
-        <link href="loginReg.css" rel="stylesheet">
-
+        <link href="/css/loginReg.css" rel="stylesheet">
+        <link rel="shortcut icon" href="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/000000/external-earth-space-icongeek26-flat-icongeek26.png" type="image/x-icon">
     </head>
     <body>
-        <div align="center">
-            <h1>
-                Регистрация
-            </h1>
-            <form action='#' enctype="text/plain">
-                <div>
-                    <input type='text' name="login" placeholder="Логин" class="info__main"> 
-                </div>
-                <div>
-                 <input type="password" name="password" placeholder="Пароль" class="info__main">
-                </div>
-                <div>  
-                    <input type="radio" name="gender" value="male" class="text__radio">Мужской
-                    <br> 
-                    <input type="radio" name="gender" value="female" class="text__radio">Женский
-                    <br>
-                    <input type="radio" name="gender" checked value="dontSay" class="text__radio">Не скажу
-                </div>
-                <div>
-                    <input type="number" name="birthdayNumber" class="info__main">
-                    <br>
-                    <input type="month" name="birhtdayMonthYear" class="info__main">
-                </div>
-                <div>
-                    <input class="info__other" type="text" name="otherInfo" placeholder="Дополнительная информация(по желанию)"> 
-                </div>
-                <div>
-                <button type="submit" class="info__button">
-                    Отправить данные.
-                </button>
-                <br>
-                <button type="reset" class="info__button">
-                    Очистить данные.
-                </button>
-                </div>
-                <div>
-                    <p class="page__text"> 
-                        Уже есть аккаунт?
-                        <a href="login.html">
-                            Войти.    
-                        </a>         
-                    </p>
-                </div>
-            </form>
-        </div>  
+        <h1>
+            Регистрация
+        </h1>
+        
+        <form action='#' enctype="text/plain">
+            <div>
+                <h2>Ваше имя на сайте/никнейм</h2>
+                <input type='text' name="login" placeholder="Логин" class="info__main"> 
+            </div>
+            <div>
+                <h2>Ваш пароль</h2>
+                <input type="password" name="password" placeholder="Пароль" class="info__main">
+            </div>
+            <div>
+                <h2>Ваш пол</h2>
+                <input type="radio" name="gender" value="male" class="text__radio">Мужской
+                <input type="radio" name="gender" value="female" class="text__radio">Женский
+                <input type="radio" name="gender" checked value="dontSay" class="text__radio">Не скажу
+            </div>
+            <div class="birthday">
+                <h2>Дата рождения</h2>
+                <input type="number" name="birthdayNumber" class="info__main" placeholder="День">
+                <input type="month" name="birhtdayMonthYear" class="info__main" placeholder="Месяц и Год">
+            </div>
+            <div>
+                <h2>Дополнительная информация</h2>
+                <input class="info__other" type="text" name="otherInfo"> 
+            </div>
+            <div>
+            <button type="submit" class="info__button">
+                Отправить данные.
+            </button>
+            <br>
+            <button type="reset" class="info__button">
+                Очистить данные.
+            </button>
+            </div>
+            <div>
+                <p class="page__text"> 
+                    Уже есть аккаунт?
+                <a href="login.html">
+                    Войти.    
+                </a>         
+                </p>
+            </div>
+            <h6>
+               P.S. Эта информация нужна просто так чтобы чем-то заполнить форму
+            </h6>
+            <h6>
+                P.P.S. Можете писать что угодно :-)) 
+            </h6>
+        </form> 
     </body>
 </html>
