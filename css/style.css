@@ -12,7 +12,8 @@ h2{
 }
 footer{
 	background-color: rgba(131, 115, 115, 1);
-	background-image: url(/img/backgroundFooter.png);
+	color: rgb(0, 0, 0);
+	width: 100vw;
 }
 .menu__button{
 	font-family: 'Open Sans', sans-serif;
@@ -25,23 +26,25 @@ footer{
 	border-radius: 10px;
 	padding: auto;
 	height: 50px;
-	margin: 10px 0px;
 	transition: 2s;
 }
 .menu__button:hover{
 	background-color: #c9c9c4;
 	cursor: pointer;
 	width: 410px;
+	transition: 2px;
 	
 }
 a{
 	text-decoration: none;
+	color: rgb(0,0,0);
 }
 	a:hover{
 		text-decoration: none;
 	}
 .text__login{
 	align-items:center;
+	font-family:"Calibri";
 }
 .button__img{
 	width:20px;
@@ -49,6 +52,13 @@ a{
 }
 .easter__egg{
 	color:rgba(255,255,255,0);
+}
+.link__login{
+	color: rgba(0,0,255,1);
+}
+.link__icons{
+	justify-content: flex-start;
+	font-family:"Calibri";
 }
 #zaglav{
 	font-family: 'Open Sans', sans-serif;
@@ -74,7 +84,7 @@ a{
 		height: 200px;
 		margin: 30px 50px;
 }
-#reg{
+.reg__button{
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 		justify-content: center;
@@ -84,4 +94,4 @@ a{
 		border-radius: 10px;
 		padding: 0px;
 		height: 100px;
-		margin: 5px 5px;}
+	}
