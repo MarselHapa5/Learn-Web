@@ -2,7 +2,7 @@ body{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
-	background-image: url(Learn-Web/img/background.png);
+	background-image: url(/Learn-Web/img/background.png);
 }
 h1{
 	font-family: "Calibri";

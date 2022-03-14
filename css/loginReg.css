@@ -14,7 +14,7 @@
 }
 body{
     display: flex;
-    background-image: url(Learn-Web/img/background.png);
+    background-image: url(/Learn-Web/img/background.png);
     flex-direction: column;
     justify-content: start;
     align-items:center;
