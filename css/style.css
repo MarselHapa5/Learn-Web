@@ -27,6 +27,7 @@ footer{
 	padding: auto;
 	height: 50px;
 	transition: 2s;
+	cursor: pointer;
 }
 .menu__button:hover{
 	background-color: #c9c9c4;
