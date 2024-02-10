@@ -1,27 +1,33 @@
+html{
+	font-family: "Calibri";
+}
 body{
 	display:flex;
 	flex-direction:column;
 	align-items:center;
-	background-image: url(/Learn-Web/img/background.png);
+	background-color: rgb(43, 45, 49);
 }
 h1{
-	font-family: "Calibri";
+	color: #FFFFFF;
 }
 h2{
-	font-family: "Calibri";
+	align-items: center;
+	display:flex;
+}
+h3{
+	display:flex;
 }
 footer{
-	background-color: rgba(131, 115, 115, 1);
-	color: rgb(0, 0, 0);
-	width: 100vw;
+	background-color:rgb(35, 36, 40);
+	color: rgb(255, 255, 255);
+	width: 99vw;
 }
 .menu__button{
-	font-family: 'Open Sans', sans-serif;
 	display: flex;
 		justify-content: center;
 		align-items: center;
-	color:#000000;
-	background-color: #9e9e9dde;
+	color:#ffffff;
+	background-color: #383a40;
 	width: 400px;
 	border-radius: 10px;
 	padding: auto;
@@ -30,7 +36,7 @@ footer{
 	cursor: pointer;
 }
 .menu__button:hover{
-	background-color: #c9c9c4;
+	background-color: #404249;
 	cursor: pointer;
 	width: 410px;
 	transition: 2px;
@@ -38,7 +44,7 @@ footer{
 }
 a{
 	text-decoration: none;
-	color: rgb(0,0,0);
+	color:#ffffff
 }
 	a:hover{
 		text-decoration: none;
@@ -46,6 +52,7 @@ a{
 .text__login{
 	align-items:center;
 	font-family:"Calibri";
+	color: #ffffff;
 }
 .button__img{
 	width:20px;
@@ -55,11 +62,11 @@ a{
 	color:rgba(255,255,255,0);
 }
 .link__login{
-	color: rgba(0,0,255,1);
+	color: #4752c4;
 }
-.link__icons{
-	justify-content: flex-start;
+.link__icon{
 	font-family:"Calibri";
+	color: #4752c4;
 }
 #zaglav{
 	font-family: 'Open Sans', sans-serif;
@@ -86,11 +93,10 @@ a{
 		margin: 30px 50px;
 }
 .reg__button{
-	font-family: 'Open Sans', sans-serif;
 	display: flex;
 		justify-content: center;
 		align-items: center;
-		background-color: #3ae75d;
+		background-color:#4752c4;
 		width: 400px;
 		border-radius: 10px;
 		padding: 0px;
