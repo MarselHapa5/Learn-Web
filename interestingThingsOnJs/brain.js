@@ -1,5 +1,5 @@
 alert("Я умею читать твои мысли")
-let a = confirm("Ну давай давай нажми")
+let a = confirm("Ну давай, давай нажми")
 if (a===true)  
 alert('Ты нажал Ок') 
 if (a===false)
